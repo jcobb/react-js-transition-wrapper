@@ -1,3 +1,5 @@
+# An interface component to apply React.js CSS transitions on initial render
+
 `ReactCSSTransitionGroup` is an easy way to perform CSS transitions and animations when a React component enters or leaves the DOM.
 
 When a new item is added to `ReactCSSTransitionGroup` it will get the `.transitionName-enter` CSS class and the `.transitionName-enter-active` CSS class added in the next tick. Subsequently, when an item is removed, it will receive the `.transitionName-leave` and `.transitionName-active` CSS classes.
