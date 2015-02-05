@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script src="build/JSXTransformer.js"></script>
+		<script src="build/react-with-addons.js"></script>
+		<script type="text/jsx" src="TodoList.jsx"></script>
+		<script type="text/jsx" src="ReactCSSTransitionAppear.jsx"></script>
+
+		<style>
+
+		.example-enter {
+			opacity: 0.01;
+			transition: opacity .5s ease-in;
+		}
+
+		.example-enter.example-enter-active {
+			opacity: 1;
+		}
+
+		.example-leave {
+			opacity: 1;
+			transition: opacity .5s ease-in;
+		}
+
+		.example-leave.example-leave-active {
+			opacity: 0.01;
+		}
+
+		</style>
+
+	</head>
+	<body>
+
+	</body>
+	<script type="text/jsx">
+		React.render(<TodoList />, document.getElementsByTagName('body')[0]);
+	</script>
+</html>
